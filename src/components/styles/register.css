@@ -1,0 +1,33 @@
+
+.registerContainer{
+    width:300px;
+    background-color: rgb(37, 33, 33);
+    height:350px;
+    display:flex;
+    margin:auto;
+    flex-direction:column;
+    gap:30px;
+    align-items:center;
+    justify-content:center;
+}
+
+.registerContainer input{
+    padding:10px 30px;
+    border-radius:5px;
+    background-color:black;
+    border:none;
+    color:gray;
+}
+.registerContainer button{
+    padding:8px 90px;
+    border-radius:10px;
+    background-color:blue;
+    border:none;
+    color:gray;
+}
+.registerContainer .link{
+    background-color:inherit;
+    color:white;
+    padding-bottom:20px;
+
+}
